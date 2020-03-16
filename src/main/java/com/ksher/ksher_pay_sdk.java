@@ -36,8 +36,7 @@ public class ksher_pay_sdk {
 
     private String appid;
     private String privateKey;
-    //PayDomain    =  "https://api.mch.ksher.net/KsherPay"
-    private String PayDomain = "http://ht.dspread.com/front/KsherPay";
+    private String PayDomain = "https://api.mch.ksher.net/KsherPay";
     //定义加密方式
     private final String KEY_RSA = "RSA";
     //定义签名算法
