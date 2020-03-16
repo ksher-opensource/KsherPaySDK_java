@@ -3,8 +3,10 @@
  *Note:
  * For merchant using **java ** language, Private Key need to be converted to pkcs8 format. 
   The procedure of obtain Private Key for merchant using **java** language :
+ 
  1.Download private key file from Ksher merchant platform  https://merchant.ksher.net/big_business/index.
   the private key you download from Ksher merchant platform  is pcks1 format.
+  
  2.Convert private file to pkcs8 format, by using command:
   
    " openssl pkcs8 -topk8 -inform PEM -in private.key -outform pem -nocrypt -out pkcs8.pem "

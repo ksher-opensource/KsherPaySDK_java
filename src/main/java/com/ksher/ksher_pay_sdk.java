@@ -38,7 +38,7 @@ public class ksher_pay_sdk {
     private String privateKey;
     private String PayDomain = "https://api.mch.ksher.net/KsherPay";
     //定义加密方式
-    private final String KEY_RSA = "RSA";
+    private final String KEY_RSA = "RSA";pus
     //定义签名算法
     private final String KEY_RSA_SIGNATURE = "MD5withRSA";
     private final java.text.SimpleDateFormat timeStampFormat = new java.text.SimpleDateFormat("yyyyMMddHHmmss");
